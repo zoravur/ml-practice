@@ -4,7 +4,7 @@
 1. Linear Regression (California housing dataset)
 2. Logistic Regression (Wisconsin Diagnostic Breast Cancer)
 3. MLP (MNIST)
-4. 
+4. CNN (CIFAR-10); see cifar-redux.py for 83% baseline
 
 ## Setup
 
