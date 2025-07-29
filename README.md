@@ -1,10 +1,17 @@
 # Jax Algorithms
 ## Common machine learning algorithms implemented in Jax
 
-1. Linear Regression (California housing dataset)
-2. Logistic Regression (Wisconsin Diagnostic Breast Cancer)
-3. MLP (MNIST)
-4. CNN (CIFAR-10); see cifar-redux.py for 83% baseline
+All notebooks are located in the `notebooks/` directory.
+
+| Model                | Dataset                               | Filename                  |
+|----------------------|---------------------------------------|---------------------------|
+| Linear Regression    | California housing dataset            | linear-regression.ipynb   |
+| Logistic Regression  | Wisconsin Diagnostic Breast Cancer    | logistic-regression.ipynb |
+| MLP                  | MNIST                                 | mlp.ipynb                 |
+| CNN                  | CIFAR-10	                           | cnn.ipynb                 |
+| CNN                  | CIFAR-10	                           | cifar-redux.ipynb         |
+| VAE                  | MNIST                                 | TODO                      |
+| BoW + TFIDF + LogReg | IMDB Sentiment                        | nlp-intro.ipynb           |
 
 ## Setup
 
@@ -21,7 +28,7 @@
 
 3. Launch Jupyter:
    ```bash
-   jupyter notebook
+   jupyter lab
    ```
 
 4. Open any of the notebook files to explore the implementations.
